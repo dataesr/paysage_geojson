@@ -34,7 +34,7 @@ def to_geom(v):
 def to_valid(g):
     if g is None:
         return None
-    return g if shapely.is_valid(g) else shapely.make_valid(g)()
+    return g if shapely.is_valid(g) else shapely.make_valid(g)
 
 
 #garde que les polygones

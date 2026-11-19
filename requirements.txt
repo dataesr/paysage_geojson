@@ -1,0 +1,5 @@
+pandas
+geopandas>=1.0
+shapely>=2.0
+requests
+python-dotenv
